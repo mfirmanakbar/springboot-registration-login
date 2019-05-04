@@ -21,14 +21,6 @@ public class UserRestController {
 	public UserEntity findByUsername(@PathVariable String username) {
 		System.out.println("\nTESTED-OK-TESTED-OK\n");
 		return userService.findByUsername(username);
-	}
-	
-	/*@GetMapping(path="/{username}")
-	public String findByUsername(@PathVariable String username) {
-		//UserEntity
-		//return userService.findByUsername(username);
-		System.out.println("TESTED-OK-TESTED-OK");
-		return "TESTED-OK";
-	}*/
+	}	
 	
 }
